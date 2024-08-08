@@ -1,0 +1,67 @@
+
+/* Styling for the NAVBAR */
+nav {
+    background-color: #333;
+    overflow: hidden;
+    background: linear-gradient(purple,orange);
+  }
+  
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 5px;
+    border-width: 10px;
+  }
+  
+  /* Change the color of the links on hover */
+  nav a:hover{
+    background-color: #97bde0;
+    color: black;
+  }
+  
+  /* Style the link that is currently active so our users knows which page they are on */
+  nav a.active{
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Clearfix class (lifehack)*/
+  /* https://css-tricks.com/clearfix-a-lesson-in-web-development-evolution/ */
+  .clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 44px;
+    font-family: 'Times New Roman', Times, serif;
+    color:magenta;
+  }
+
+  p{
+     text-align : center;
+     justify-content: center;
+     font-style: italic;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+  }
+  
+
+  .home-page {
+    padding: 20px;
+  }
+
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  
+  
+  

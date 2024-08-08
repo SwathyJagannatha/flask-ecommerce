@@ -1,0 +1,28 @@
+.footer {
+    background-color: #78c0d0; /* Light gray background */
+    border-top: 5px solid #cde727; /* Subtle border at the top */
+    padding: 4px;
+    text-align: center;
+    display: flex;
+  }
+  
+  .footer-col {
+    margin-bottom: 20px; /* Space between columns */
+  }
+  
+  .footer-title {
+    font-size: 1.25rem; /* Larger font for titles */
+    margin-bottom: 10px; /* Space below title */
+    color: #24040c; /* Dark gray color */
+  }
+  
+  .footer-text {
+    font-size: 24p; /* Smaller font for paragraph text */
+    color: #af41ee; /* Medium gray color */
+    padding: 4px;
+  }
+  
+  .footer-link {
+    color: #3f94f0; /* Bootstrap primary color for links */
+    text-decoration: none; /* Remove underline */
+  }
